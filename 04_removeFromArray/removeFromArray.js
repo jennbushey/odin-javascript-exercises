@@ -9,7 +9,7 @@ const removeFromArray = function(userArray, ...userRemove) {
         userRemove.sort();
         if (userContent === userRemove[i]) {
             i++;
-            console.log(i);
+            //console.log(i);
         }
         else {
             newArray.push(userContent);
@@ -17,8 +17,7 @@ const removeFromArray = function(userArray, ...userRemove) {
         //console.log(userArray, userRemove);
         userArray = newArray;
     }
-    //userRemove.pop();
-    console.log(newArray);
+    //console.log(newArray);
     return newArray;
 };
 
